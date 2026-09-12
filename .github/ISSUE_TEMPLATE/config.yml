@@ -4,5 +4,5 @@ contact_links:
     url: https://ponymux.com/docs/getting-started
     about: Installation, agent integrations, and using PonyMux.
   - name: Security or sensitive report
-    url: mailto:hi@ponymux.com
+    url: https://github.com/heylittlepan/ponymux/blob/main/SUPPORT.md#logs-and-crash-reports
     about: Send a short description privately; do not post sensitive details in an issue.
