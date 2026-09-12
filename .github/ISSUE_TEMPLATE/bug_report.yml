@@ -1,0 +1,107 @@
+name: Bug Report
+description: Report a bug in PonyMux
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill out the information below so we can reproduce and fix it.
+        Search existing issues first. Remove private code, conversations, credentials, and personal information from anything you share.
+        For security or sensitive reports, email hi@ponymux.com with a short description instead of opening an issue.
+
+  - type: input
+    id: ponymux-version
+    attributes:
+      label: PonyMux version
+      description: "PonyMux menu → About PonyMux"
+      placeholder: "e.g. 0.8.0"
+    validations:
+      required: true
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: "Apple menu → About This Mac"
+      placeholder: "e.g. macOS 15.3 (Sequoia)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: chip
+    attributes:
+      label: Mac chip
+      options:
+        - Apple Silicon
+        - Intel
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: "A clear description of the bug."
+      placeholder: "What happened?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: "What did you expect to happen?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: "What were you doing when it happened? If it is intermittent or you cannot reproduce it reliably, say so."
+      placeholder: |
+        1. Open PonyMux
+        2. ...
+        3. See error
+    validations:
+      required: true
+
+  - type: input
+    id: agent-version
+    attributes:
+      label: Agent and version (if relevant)
+      description: "For agent-related problems, run claude --version or codex --version."
+      placeholder: "Agent, version, and whether this followed Resume or Fork"
+    validations:
+      required: false
+
+  - type: textarea
+    id: shell-info
+    attributes:
+      label: Shell and environment
+      description: "Which shell are you using? Any relevant env config (oh-my-zsh, starship, etc.)?"
+      placeholder: "e.g. zsh with starship prompt"
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or crash reports
+      description: |
+        If applicable, paste logs or crash reports. Press Cmd+Shift+L in PonyMux to open the debug log.
+        Crash reports are in `~/Library/Logs/DiagnosticReports/`.
+        Include only relevant entries and the approximate time of the problem. Redact secrets, conversations, and personal paths.
+        Do not upload your session database or full agent transcripts. See SUPPORT.md for private reporting.
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recordings
+      description: "If applicable, add screenshots or recordings to help explain the problem."
+    validations:
+      required: false

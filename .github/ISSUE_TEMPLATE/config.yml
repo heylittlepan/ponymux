@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://ponymux.com/docs/getting-started
+    about: Installation, agent integrations, and using PonyMux.
+  - name: Security or sensitive report
+    url: mailto:hi@ponymux.com
+    about: Send a short description privately; do not post sensitive details in an issue.
