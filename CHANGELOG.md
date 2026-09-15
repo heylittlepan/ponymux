@@ -11,6 +11,15 @@ Selected release highlights, newest first. The [website changelog](https://ponym
 - Fixed ⌘F and ⌘K search fields not receiving focus on open.
 - Fixed search bar height shifting when typing.
 
+## 0.9.0
+
+- Terminal search view with ⌘K. Multi-token matching against Terminal names, prompts, recaps, and replies with scope pills for All, Terminals, and Archive.
+- Cross-provider handoff between Claude Code and Codex. PonyMux extracts recent turns and a summary into a handoff file for the target provider.
+- Quieter updates — Sparkle no longer shows a modal dialog. A sidebar button appears when a new version is ready.
+- Session summary on wake — sleeping Terminals show the agent name, last activity, and a recap before you resume.
+- Suspended agents survive restarts and restore on launch.
+- Help menu with documentation links, feedback, and a What's New item.
+
 ## 0.8.0
 
 - Read Markdown files beside your Terminal, including local inline images. Navigate between files, pin useful ones, and see edits update live.
