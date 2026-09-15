@@ -2,6 +2,15 @@
 
 Selected release highlights, newest first. The [website changelog](https://ponymux.com/changelog/) is the main release history and includes version downloads.
 
+## 0.9.2
+
+- Search within the current Terminal with ⌘F, or filter Terminals by keyword with ⌘K.
+- Faster switching and smoother scrolling with many Terminals open.
+- Suspended agent sessions stay visible while resuming; the Clear button appears on hover.
+- Drag-and-drop install with the Applications shortcut in the DMG.
+- Fixed ⌘F and ⌘K search fields not receiving focus on open.
+- Fixed search bar height shifting when typing.
+
 ## 0.8.0
 
 - Read Markdown files beside your Terminal, including local inline images. Navigate between files, pin useful ones, and see edits update live.
