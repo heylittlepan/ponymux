@@ -2,6 +2,22 @@
 
 Selected release highlights, newest first. The [website changelog](https://ponymux.com/changelog/) is the main release history and includes version downloads.
 
+## 0.10.1
+
+- Search now discovers all matching sessions — results load progressively so no matches are missed, even for common terms.
+- Clicking a search result for an ended Terminal shows the matched transcript with highlights instead of opening a new shell.
+- Resume in search mode targets the matched session. The banner shows the session name and date so you know which conversation you're resuming.
+- Ended Terminals that previously auto-opened a shell now show their last conversation with Resume / Shell Only options.
+- Transcript text size increased from 11pt to 12.5pt for easier reading.
+
+## 0.10.0
+
+- Search across your conversation history with Claude Code and Codex — find any topic you've discussed, even in sessions you closed weeks ago.
+- Ended Terminals show the last conversation instead of a static screen capture. Matching messages are highlighted when navigating from search.
+- Codex conversations are indexed alongside Claude Code transcripts.
+- New conversations are picked up within seconds via filesystem events.
+- Manage transcript index status, pause/resume, and rebuild from the new Transcript Index settings page.
+
 ## 0.9.2
 
 - Search within the current Terminal with ⌘F, or filter Terminals by keyword with ⌘K.

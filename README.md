@@ -25,7 +25,7 @@ Read a long response, review a diff, or work through a problem in one full-size 
 
 Keep a bug investigation with the project it belongs to. Organize Terminals into Lists and Folders, mark progress with reactions, and archive finished work so you can find it again later.
 
-Session history lets you resume a previous Claude Code or Codex conversation, or fork it to try another approach, while its transcript is available. Pick up an earlier thread without hunting through old windows.
+Search across your full conversation history — find any topic you've discussed with an agent, even in sessions you closed weeks ago. Resume a previous Claude Code or Codex conversation, or fork it to try another approach. Pick up an earlier thread without hunting through old windows.
 
 ### Keep working the way you already do.
 
