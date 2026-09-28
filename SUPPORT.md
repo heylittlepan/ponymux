@@ -20,4 +20,4 @@ GitHub issues are public once this repository is public. For a security vulnerab
 
 ## Updates
 
-Use the update button in PonyMux when a release is available, or [download the latest version](https://ponymux.com/download). The [changelog](https://ponymux.com/changelog/) lists release highlights and version downloads.
+Use the update button in PonyMux when a release is available, or [download the latest version](https://ponymux.com/download?utm_source=github&utm_medium=support). The [changelog](https://ponymux.com/changelog/) lists release highlights and version downloads.

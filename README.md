@@ -1,12 +1,12 @@
 # PonyMux
 
-## Run more coding agents. Watch fewer terminals.
+## Organize terminal work like notes.
 
 One agent is fixing a bug. Another is writing tests. Yesterday’s conversation still has work left in it.
 
 PonyMux is a native Mac terminal that gives your Claude Code and Codex sessions a place to live. See which ones need you, give the current task your full attention, and come back to earlier work when you’re ready.
 
-[![Download for macOS — free](https://img.shields.io/badge/Download_for_macOS-Free-4c71f2?style=flat&logo=apple&logoColor=white)](https://ponymux.com/download)
+[![Download for macOS — free](https://img.shields.io/badge/Download_for_macOS-Free-4c71f2?style=flat&logo=apple&logoColor=white)](https://ponymux.com/download?utm_source=github&utm_medium=readme)
 ![Requires macOS 14 or later](https://img.shields.io/badge/macOS-14%2B-555?style=flat)
 
 ![PonyMux workspace demo: project lists, named coding tasks, and one full-size terminal.](docs/assets/workspace.png)
@@ -37,7 +37,7 @@ A native Swift app with a [Ghostty-powered terminal](https://github.com/ghostty-
 
 ## Try it with your next task
 
-1. [Download PonyMux](https://ponymux.com/download), open the DMG, and drag the app to Applications.
+1. [Download PonyMux](https://ponymux.com/download?utm_source=github&utm_medium=readme), open the DMG, and drag the app to Applications.
 2. Launch PonyMux and connect Claude Code or Codex through **Agent Integrations** at the bottom of the sidebar. Install your preferred agent separately if you do not already use it.
 3. Create a Terminal with `⌘N` and run `claude` or `codex`. Start another task in a second Terminal and switch between them as they need you.
 
