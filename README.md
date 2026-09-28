@@ -2,9 +2,7 @@
 
 ## Organize terminal work like notes.
 
-One agent is fixing a bug. Another is writing tests. Yesterday’s conversation still has work left in it.
-
-PonyMux is a native Mac terminal that gives your Claude Code and Codex sessions a place to live. See which ones need you, give the current task your full attention, and come back to earlier work when you’re ready.
+A native Mac terminal that keeps your Claude Code and Codex sessions organized — lists, folders, persistent history, and one focused terminal at a time.
 
 [![Download for macOS — free](https://img.shields.io/badge/Download_for_macOS-Free-4c71f2?style=flat&logo=apple&logoColor=white)](https://ponymux.com/download?utm_source=github&utm_medium=readme)
 ![Requires macOS 14 or later](https://img.shields.io/badge/macOS-14%2B-555?style=flat)
@@ -13,27 +11,39 @@ PonyMux is a native Mac terminal that gives your Claude Code and Codex sessions 
 
 <sub>Workspace demo with sample tasks. [Try the interactive demo →](https://ponymux.com/)</sub>
 
-### Stop checking every terminal.
+### A workspace you can browse
 
-An agent finishes a turn. Another needs permission to continue. See their status and get notified when they need you, so you can spend less time switching windows just to check on progress.
+Lists, Folders, manual order, Archive, and Trash give long-lived work a familiar place to live. Find a Terminal by what it means, not by which window happened to contain it. Stamp reactions to mark progress — ✓ done, 🎉 shipped, ⏸ paused. Filter by agent status. Resume or fork any past session.
 
-### Give one task the whole screen.
+[See how organization works →](https://ponymux.com/docs/organize)
 
-Read a long response, review a diff, or work through a problem in one full-size Terminal. Your other sessions keep running while you focus. When you want more room, Focus Mode clears the navigation away.
+### One task gets the screen. The rest stay ready.
 
-### Find the work you meant to return to.
+Your other sessions keep running — status and notifications bring you back when something needs attention.
 
-Keep a bug investigation with the project it belongs to. Organize Terminals into Lists and Folders, mark progress with reactions, and archive finished work so you can find it again later.
+[Explore the workspace →](https://ponymux.com/docs/workspace-navigation)
 
-Search across your full conversation history — find any topic you've discussed with an agent, even in sessions you closed weeks ago. Resume a previous Claude Code or Codex conversation, or fork it to try another approach. Pick up an earlier thread without hunting through old windows.
+### Search terminals and conversations.
 
-### Keep working the way you already do.
+Press `⌘K` to find a Terminal by name, or search the full text of every conversation you've had with Claude Code and Codex. Scope pills narrow results to Terminals, Archive, or Transcripts. Select a transcript match and the conversation appears with your search terms highlighted — resume directly from there.
 
-Run `claude` or `codex` as usual. They keep their familiar terminal interfaces; PonyMux adds organization, status, and session history around them. Connect the agents you already use in **Agent Integrations**.
+[Explore search →](https://ponymux.com/docs/search)
 
-### A comfortable place to spend the day.
+### Works with Claude Code and Codex.
 
-A native Swift app with a [Ghostty-powered terminal](https://github.com/ghostty-org/ghostty), themes, screen effects, and session pets. Open Markdown files beside your work, or let an agent show you a file with `pony open`. Use Quick Terminal for a temporary supporting shell when you need one.
+Connect either provider for live agent status, notifications, session history, Resume and Fork. The agents keep their own terminal interfaces — PonyMux just improves the surroundings.
+
+[Explore agent integrations →](https://ponymux.com/docs/integrations)
+
+### Themes you can feel.
+
+10+ themes applied in one click. Cursor effects, Metal shaders, and reactions make the workspace feel yours.
+
+[Explore personalization →](https://ponymux.com/docs/personalize)
+
+### 15 MB. Opens before you blink.
+
+No Electron, no bundled browser. A native Swift app with a [Ghostty-powered terminal](https://github.com/ghostty-org/ghostty) — built to stay open all day.
 
 ## Try it with your next task
 
