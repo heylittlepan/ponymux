@@ -2,6 +2,15 @@
 
 Selected release highlights, newest first. The [website changelog](https://ponymux.com/changelog/) is the main release history and includes version downloads.
 
+## 0.11.3
+
+- Grok CLI support: status, approvals, search, resume, fork, handoff, the Inspector, and the usage card now work for Grok the way they do for Claude Code and Codex. [Why Grok was next →](https://ponymux.com/blog/grok-build-cli-in-ponymux?utm_source=github&utm_medium=readme&utm_campaign=0.11.3)
+- The Inspector shows a Grok session's model, reasoning effort, and context used out of the total.
+- Handoff is one "Handoff to…" menu, so any agent can hand off to either of the other two.
+- Codex status works again with Codex 0.157 and later. PonyMux Terminals run `codex` without the shared background server, so every Terminal shows its own status.
+- A subagent waiting for your approval keeps its Terminal on Waiting for you, even when the main conversation ends or starts a new turn.
+- Fixed a hang when quitting or installing an update while a background Terminal is producing output, and a crash when resizing the window.
+
 ## 0.10.1
 
 - Search now discovers all matching sessions — results load progressively so no matches are missed, even for common terms.

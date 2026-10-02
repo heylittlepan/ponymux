@@ -2,7 +2,7 @@
 
 ## Organize terminal work like notes.
 
-A native Mac terminal that keeps your Claude Code and Codex sessions organized — lists, folders, persistent history, and one focused terminal at a time.
+A native Mac terminal that keeps your Claude Code, Codex, and Grok sessions organized — lists, folders, persistent history, and one focused terminal at a time.
 
 [![Download for macOS — free](https://img.shields.io/badge/Download_for_macOS-Free-4c71f2?style=flat&logo=apple&logoColor=white)](https://ponymux.com/download?utm_source=github&utm_medium=readme)
 ![Requires macOS 14 or later](https://img.shields.io/badge/macOS-14%2B-555?style=flat)
@@ -25,13 +25,13 @@ Your other sessions keep running — status and notifications bring you back whe
 
 ### Search terminals and conversations.
 
-Press `⌘K` to find a Terminal by name, or search the full text of every conversation you've had with Claude Code and Codex. Scope pills narrow results to Terminals, Archive, or Transcripts. Select a transcript match and the conversation appears with your search terms highlighted — resume directly from there.
+Press `⌘K` to find a Terminal by name, or search the full text of every conversation you've had with Claude Code, Codex, and Grok. Scope pills narrow results to Terminals, Archive, or Transcripts. Select a transcript match and the conversation appears with your search terms highlighted — resume directly from there.
 
 [Explore search →](https://ponymux.com/docs/search)
 
-### Works with Claude Code and Codex.
+### Works with Claude Code, Codex, and Grok.
 
-Connect either provider for live agent status, notifications, session history, Resume and Fork. The agents keep their own terminal interfaces — PonyMux just improves the surroundings.
+Connect each provider you use for live agent status, notifications, session history, Resume and Fork. The agents keep their own terminal interfaces — PonyMux just improves the surroundings.
 
 [Explore agent integrations →](https://ponymux.com/docs/integrations)
 
@@ -48,8 +48,8 @@ No Electron, no bundled browser. A native Swift app with a [Ghostty-powered term
 ## Try it with your next task
 
 1. [Download PonyMux](https://ponymux.com/download?utm_source=github&utm_medium=readme), open the DMG, and drag the app to Applications.
-2. Launch PonyMux and connect Claude Code or Codex through **Agent Integrations** at the bottom of the sidebar. Install your preferred agent separately if you do not already use it.
-3. Create a Terminal with `⌘N` and run `claude` or `codex`. Start another task in a second Terminal and switch between them as they need you.
+2. Launch PonyMux and connect Claude Code, Codex, or Grok through **Agent Integrations** at the bottom of the sidebar. Install your preferred agent separately if you do not already use it.
+3. Create a Terminal with `⌘N` and run `claude`, `codex`, or `grok`. Start another task in a second Terminal and switch between them as they need you.
 
 The app is signed with Developer ID and notarized by Apple, with updates available in the app.
 
