@@ -2,6 +2,17 @@
 
 Selected release highlights, newest first. The [website changelog](https://ponymux.com/changelog/) is the main release history and includes version downloads.
 
+## 0.12.0
+
+- Four new cursor effects: Comet, Sparks, Afterimage, and Lightning join Warp, Tail, Sweep, and Ripple. [What's new in 0.12 →](https://ponymux.com/blog/cursor-effects-and-six-ponies?utm_source=github&utm_medium=readme&utm_campaign=0.12.0)
+- Settings → Terminal → Screen Effect plays the selected effect in a live terminal with your font, cursor, and theme before you pick it.
+- Ripple is bigger and lasts longer. Ripple, Comet, Sparks, and Lightning use your theme's accent color.
+- Six ponies ship with the app: Mochi, Nyx, Opal, Pixel, Rex, and Mocha, so each Terminal gets its own pet without Codex or ChatGPT installed. Mochi's animations were repaired too.
+- Waking a sleeping Terminal, resuming, forking, and handing off no longer pause the window, even on long Codex conversations.
+- Startup work runs in the background, and a stuck lock held by another PonyMux can no longer hang launch.
+- Markdown files with large images render in the background and re-render up to 20× faster when you resize or switch themes. Reopening a file picks up images that changed on disk.
+- VoiceOver reads the name of every switch in Settings.
+
 ## 0.11.3
 
 - Grok CLI support: status, approvals, search, resume, fork, handoff, the Inspector, and the usage card now work for Grok the way they do for Claude Code and Codex. [Why Grok was next →](https://ponymux.com/blog/grok-build-cli-in-ponymux?utm_source=github&utm_medium=readme&utm_campaign=0.11.3)

@@ -41,7 +41,7 @@ Connect each provider you use for live agent status, notifications, session hist
 
 [Explore personalization →](https://ponymux.com/docs/personalize)
 
-### 15 MB. Opens before you blink.
+### Under 50 MB. Opens before you blink.
 
 No Electron, no bundled browser. A native Swift app with a [Ghostty-powered terminal](https://github.com/ghostty-org/ghostty) — built to stay open all day.
 
