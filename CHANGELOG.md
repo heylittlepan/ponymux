@@ -2,6 +2,14 @@
 
 Selected release highlights, newest first. The [website changelog](https://ponymux.com/changelog/) is the main release history and includes version downloads.
 
+## 0.13.0
+
+- The Inspector collects the pull requests and links the agent gave you in the running conversation, newest first, with their real titles. With GitHub CLI installed, pull requests in private repositories show their titles too. [What's new in 0.13 →](https://ponymux.com/blog/links-outputs-and-terminal-therapy?utm_source=github&utm_medium=readme&utm_campaign=0.13.0)
+- Outputs keeps everything the agent made for you in one list: Claude Artifacts, pages Codex wrote, Markdown documents, files it sent, and the images, videos, and reports it pointed to. Markdown opens in the Files panel, HTML in your browser, and everything else in Quick Look.
+- Terminal Therapy gives you a pistol, a hammer, a rocket launcher, the Ignite and Freeze spells, and a Bless Wand for the moments when the agent gets it wrong. Effects are drawn only on your screen; nothing is typed into the Terminal. Sounds are off by default.
+- When Claude Code moves a conversation to the background with `/bg`, the Sessions panel shows it and can bring it back, even after a restart.
+- Built-in ChatGPT pets are found again with the latest ChatGPT app. Selecting text in Codex copies it again. Crashes when resizing the window or switching Terminals are fixed. Animations follow your Reduce Motion setting.
+
 ## 0.12.0
 
 - Four new cursor effects: Comet, Sparks, Afterimage, and Lightning join Warp, Tail, Sweep, and Ripple. [What's new in 0.12 →](https://ponymux.com/blog/cursor-effects-and-six-ponies?utm_source=github&utm_medium=readme&utm_campaign=0.12.0)

@@ -31,13 +31,13 @@ Press `⌘K` to find a Terminal by name, or search the full text of every conver
 
 ### Works with Claude Code, Codex, and Grok.
 
-Connect each provider you use for live agent status, notifications, session history, Resume and Fork. The agents keep their own terminal interfaces — PonyMux just improves the surroundings.
+Connect each provider you use for live agent status, notifications, session history, Resume and Fork. The links, PRs and files the agent gives you are collected in the Inspector. The agents keep their own terminal interfaces — PonyMux just improves the surroundings.
 
 [Explore agent integrations →](https://ponymux.com/docs/integrations)
 
 ### Themes you can feel.
 
-10+ themes applied in one click. Cursor effects, Metal shaders, and reactions make the workspace feel yours.
+485 themes applied in one click. Cursor effects, Metal shaders, and reactions make the workspace feel yours. When the agent gets it wrong, Terminal Therapy lets you take it out on the Terminal, not the agent.
 
 [Explore personalization →](https://ponymux.com/docs/personalize)
 
