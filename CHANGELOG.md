@@ -2,6 +2,15 @@
 
 Selected release highlights, newest first. The [website changelog](https://ponymux.com/changelog/) is the main release history and includes version downloads.
 
+## 0.14.0
+
+- Every pull request in the Inspector shows where it stands: checks running, passed, or failing, merge conflicts, and a badge for review bots like Codex, CodeRabbit, GitHub Copilot, Gemini Code Assist, Claude, and Cursor Bugbot. Hover a row for each bot's verdict. Status is read with your GitHub CLI login and can be turned off in Settings → General. [What's new in 0.14 →](https://ponymux.com/blog/your-agent-is-done-the-pull-request-isnt?utm_source=github&utm_medium=readme&utm_campaign=0.14.0)
+- Merge, close, or reopen a pull request from its row. The dialog checks GitHub again first, lets you pick a merge method the repository allows, and stays open until GitHub answers.
+- Servers lists the dev servers started from the Terminal, by port. Hover one to see when, where, and how it started; stop it with one click without touching your shell or the agent.
+- Pull requests and files created by subagents now appear in Pull Requests and Outputs, for Claude Code, Codex, and Grok.
+- An agent you have installed but never ran shows a Connect button, with up-to-date install links.
+- The working indicator stays on while a background subagent is busy, moving a Terminal to the Trash or Archive stops what's running in it, dialogs follow your light or dark theme, and the Terminal row badge no longer sits on a backing circle.
+
 ## 0.13.0
 
 - The Inspector collects the pull requests and links the agent gave you in the running conversation, newest first, with their real titles. With GitHub CLI installed, pull requests in private repositories show their titles too. [What's new in 0.13 →](https://ponymux.com/blog/links-outputs-and-terminal-therapy?utm_source=github&utm_medium=readme&utm_campaign=0.13.0)

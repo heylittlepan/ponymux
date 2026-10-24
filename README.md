@@ -31,7 +31,7 @@ Press `⌘K` to find a Terminal by name, or search the full text of every conver
 
 ### Works with Claude Code, Codex, and Grok.
 
-Connect each provider you use for live agent status, notifications, session history, Resume and Fork. The links, PRs and files the agent gives you are collected in the Inspector. The agents keep their own terminal interfaces — PonyMux just improves the surroundings.
+Connect each provider you use for live agent status, notifications, session history, Resume and Fork. The links, PRs and files the agent gives you are collected in the Inspector, where each PR shows its checks and review status and the dev servers the agent started can be stopped. The agents keep their own terminal interfaces — PonyMux just improves the surroundings.
 
 [Explore agent integrations →](https://ponymux.com/docs/integrations)
 
