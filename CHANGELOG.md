@@ -11,6 +11,13 @@ Selected release highlights, newest first. The [website changelog](https://ponym
 - An agent you have installed but never ran shows a Connect button, with up-to-date install links.
 - The working indicator stays on while a background subagent is busy, moving a Terminal to the Trash or Archive stops what's running in it, dialogs follow your light or dark theme, and the Terminal row badge no longer sits on a backing circle.
 
+## 0.13.1
+
+- Saving works reliably again on macOS 27: running `codex` inside PonyMux could stop your changes from being saved. If saving ever fails, PonyMux now retries on its own and lets you know in the sidebar.
+- Interrupting a Claude Code turn with Ctrl+C now ends the running state, just like Esc.
+- With Codex 0.163 or later, Agent integrations tells you when PonyMux's hooks need your review in Codex, so status keeps working.
+- Pull requests in the Inspector are easier to scan, with the repository shown for each one and no duplicates. Long lists stay short until you expand them.
+
 ## 0.13.0
 
 - The Inspector collects the pull requests and links the agent gave you in the running conversation, newest first, with their real titles. With GitHub CLI installed, pull requests in private repositories show their titles too. [What's new in 0.13 →](https://ponymux.com/blog/links-outputs-and-terminal-therapy?utm_source=github&utm_medium=readme&utm_campaign=0.13.0)
