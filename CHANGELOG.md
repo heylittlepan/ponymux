@@ -2,6 +2,13 @@
 
 Selected release highlights, newest first. The [website changelog](https://ponymux.com/changelog/) is the main release history and includes version downloads.
 
+## 0.14.1
+
+- When an agent is running but PonyMux isn't receiving its status, its Terminal shows a question mark instead of looking idle. Hover the agent in the Inspector to see how to connect it.
+- Forking a conversation whose transcript is gone now says so, instead of asking you to send a message first.
+- Unresolved Codex comments on an earlier commit still show on the pull request, and every pull request an agent opens in one command appears in the Inspector.
+- New installs check for updates on their own, with a switch in Settings → Advanced. Checks include an anonymous install ID so we can count active installs.
+
 ## 0.14.0
 
 - Every pull request in the Inspector shows where it stands: checks running, passed, or failing, merge conflicts, and a badge for review bots like Codex, CodeRabbit, GitHub Copilot, Gemini Code Assist, Claude, and Cursor Bugbot. Hover a row for each bot's verdict. Status is read with your GitHub CLI login and can be turned off in Settings → General. [What's new in 0.14 →](https://ponymux.com/blog/your-agent-is-done-the-pull-request-isnt?utm_source=github&utm_medium=readme&utm_campaign=0.14.0)
