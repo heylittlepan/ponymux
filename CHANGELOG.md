@@ -2,6 +2,15 @@
 
 Selected release highlights, newest first. The [website changelog](https://ponymux.com/changelog/) is the main release history and includes version downloads.
 
+## 0.15.0
+
+- Select several Terminals and they appear side by side, live. Click a pane to type in it without leaving the group, drag a pane's title bar to reorder, and wake every sleeping Terminal in the selection at once. It's off until you pick a layout from the Preview Layout button in the toolbar. [What's new in 0.15 →](https://ponymux.com/blog/watch-several-agents-at-once?utm_source=github&utm_medium=readme&utm_campaign=0.15.0)
+- PonyMux now runs on Intel Macs as well as Apple silicon, on macOS 14 or later.
+- Press ⌥⌘A, or use the status bar, to select every Terminal in a list. Back and Forward remember a multi-selection, and Esc leaves it.
+- Mark a pull request ready for review, or turn it back into a draft, from its ⋯ menu in the Inspector.
+- Each agent's usage limits fit in one ring, with the longer window on the outside. When a ring is empty it says why, and a click retries.
+- Agents that handle large images stay in sync, Codex sessions and agents with a queued message no longer get stuck on running, and your own Claude Code settings are kept in new Terminals. The cursor no longer blinks by default; turn it back on in Settings → Terminal.
+
 ## 0.14.1
 
 - When an agent is running but PonyMux isn't receiving its status, its Terminal shows a question mark instead of looking idle. Hover the agent in the Inspector to see how to connect it.
