@@ -2,10 +2,12 @@
 
 ## Organize terminal work like notes.
 
-A native Mac terminal that keeps your Claude Code, Codex, and Grok sessions organized — lists, folders, persistent history, and one focused terminal at a time.
+A terminal for macOS and Windows that keeps your Claude Code, Codex, and Grok sessions organized — lists, folders, persistent history, and one focused terminal at a time.
 
-[![Download for macOS — free](https://img.shields.io/badge/Download_for_macOS-Free-4c71f2?style=flat&logo=apple&logoColor=white)](https://ponymux.com/download?utm_source=github&utm_medium=readme)
+[![Download for macOS — free](https://img.shields.io/badge/Download_for_macOS-Free-4c71f2?style=flat&logo=apple&logoColor=white)](https://ponymux.com/download?mac=1&utm_source=github&utm_medium=readme)
+[![Download for Windows — free](https://img.shields.io/badge/Download_for_Windows-Free-4c71f2?style=flat)](https://ponymux.com/download?win=1&utm_source=github&utm_medium=readme)
 ![Requires macOS 14 or later](https://img.shields.io/badge/macOS-14%2B-555?style=flat)
+![Requires Windows 10 or later, 64-bit](https://img.shields.io/badge/Windows-10%2B_64--bit-555?style=flat)
 
 ![PonyMux workspace demo: project lists, named coding tasks, and one full-size terminal.](docs/assets/workspace.png)
 
@@ -43,15 +45,15 @@ Connect each provider you use for live agent status, notifications, session hist
 
 ### About 100 MB. Opens before you blink.
 
-No Electron, no bundled browser. A native Swift app with a [Ghostty-powered terminal](https://github.com/ghostty-org/ghostty) — built to stay open all day.
+No Electron, no bundled browser. On the Mac, a native Swift app with a [Ghostty-powered terminal](https://github.com/ghostty-org/ghostty), one build for Apple silicon and Intel — built to stay open all day.
 
 ## Try it with your next task
 
-1. [Download PonyMux](https://ponymux.com/download?utm_source=github&utm_medium=readme), open the DMG, and drag the app to Applications.
+1. [Download PonyMux](https://ponymux.com/download?utm_source=github&utm_medium=readme). On a Mac, open the DMG and drag the app to Applications. On Windows, run `Setup.exe`; if Microsoft Defender SmartScreen opens, choose **More info**, then **Run anyway**. It installs without administrator rights.
 2. Launch PonyMux and connect Claude Code, Codex, or Grok through **Agent Integrations** at the bottom of the sidebar. Install your preferred agent separately if you do not already use it.
-3. Create a Terminal with `⌘N` and run `claude`, `codex`, or `grok`. Start another task in a second Terminal and switch between them as they need you.
+3. Create a Terminal with `⌘N` (`Ctrl+Shift+N` on Windows) and run `claude`, `codex`, or `grok`. Start another task in a second Terminal and switch between them as they need you.
 
-The app is signed with Developer ID and notarized by Apple, with updates available in the app.
+The Mac app is signed with Developer ID and notarized by Apple. Both versions update from inside the app.
 
 [Read the setup guide →](https://ponymux.com/docs/getting-started)
 
