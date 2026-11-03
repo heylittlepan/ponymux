@@ -10,6 +10,7 @@ Selected release highlights, newest first. The [website changelog](https://ponym
 - Mark a pull request ready for review, or turn it back into a draft, from its ⋯ menu in the Inspector.
 - Each agent's usage limits fit in one ring, with the longer window on the outside. When a ring is empty it says why, and a click retries.
 - Agents that handle large images stay in sync, Codex sessions and agents with a queued message no longer get stuck on running, and your own Claude Code settings are kept in new Terminals. The cursor no longer blinks by default; turn it back on in Settings → Terminal.
+- PonyMux for Windows gets the same multi-select preview in its own 0.15.0. [Windows release notes →](https://ponymux.com/changelog?utm_source=github&utm_medium=readme&utm_campaign=0.15.0)
 
 ## 0.14.1
 
